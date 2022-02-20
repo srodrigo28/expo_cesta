@@ -2,9 +2,7 @@ import React from 'react';
 import { Dimensions, Alert,StyleSheet, Image, View,
          TextInput, Text, TouchableOpacity 
 } from 'react-native';
-import lp_logo from './../../assets/lp_logo.jpeg';
 import lp_login from './../../assets/lp_login.jpeg';
-import { color } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
 
 const width = Dimensions.get('screen').width;
 
@@ -32,7 +30,7 @@ export default function Login2(){
             <TouchableOpacity 
                 onPress={() => Alert.alert('Usuário ou senha sem permisão')} style={css.btn}>
                 <Text style={css.btnText}>
-                    Cadastrar
+                    Entrar
                 </Text>
             </TouchableOpacity>
         </View>
