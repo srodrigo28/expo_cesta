@@ -18,7 +18,8 @@ export default function Cesta(){
                         <Image style={estilos.fazenda__imagem} source={logo} />
                         <Text style={estilos.nome__fazenda}>Jenny Jack Farm</Text>
                     </View>
-                    <Texto style={estilos.nome__descricao}>Uma cesta com produtos selecionados
+                    <Texto style={estilos.nome__descricao}>
+                          Uma cesta com produtos selecionados
                           cuidadosamente da fazenda direto para
                           sua cozinha
                     </Texto>
@@ -35,9 +36,10 @@ const estilos = StyleSheet.create({
     titulo: {
         position: "absolute",
         fontWeight: "bold",
-        marginTop: 140,
-        fontSize: 30,
-        color: "#00d33e"
+        marginTop: 160,
+        marginLeft: 20,
+        fontSize: 23,
+        color: "#8cd448"
     },
     cesta__container: {
         paddingVertical: 8,
@@ -84,5 +86,4 @@ const estilos = StyleSheet.create({
 
     }
 });
-
 //export default Cesta;
