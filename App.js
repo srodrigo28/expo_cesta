@@ -1,22 +1,14 @@
 import React from 'react';
 import { StatusBar, SafeAreaView } from 'react-native';
-import Cesta from './src/telas/Cesta';
+import Form1 from './src/telas/Form1';
+import Login from './src/telas/Login';
 
 export default function App(){
   return(
     <SafeAreaView>
         <StatusBar />
-        <Cesta></Cesta>
+        <Login></Login>
+        <Form1></Form1>
     </SafeAreaView>
   );
 }
-/***
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
- */
