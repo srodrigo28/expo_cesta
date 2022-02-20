@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, TextInput, Button, Alert} from 'react-native';
+import { View, StyleSheet, TextInput, Button, Alert, TextInput} from 'react-native';
 // https://www.youtube.com/watch?v=RkbXAvj3jSc&t=45s
 export default function Form1(){
     return(

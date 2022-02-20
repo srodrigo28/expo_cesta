@@ -1,6 +1,5 @@
 import React from 'react';
 import { Dimensions, KeyboardAvoidingView,StyleSheet, Image, View } from 'react-native';
-import user1 from './../../assets/user1.jpeg';
 import user2 from './../../assets/user2.jpeg';
 
 const width = Dimensions.get('screen').width;
@@ -15,7 +14,6 @@ export default function Login(){
         </KeyboardAvoidingView>
     )
 }
-
 const css = StyleSheet.create({
     container: {
         display: "flex",
@@ -33,6 +31,5 @@ const css = StyleSheet.create({
         height: 200,
         borderRadius: 100,
         marginBottom: 50
-
     }
 })
